@@ -27,7 +27,16 @@ def main():
     print("Step 1: Downloading wall defect dataset from Roboflow...")
     print("=" * 60)
     from roboflow import Roboflow
-    rf = Roboflow(api_key="XdP8NQpTT2okkMBxTP0r")
+    
+    # Get API key from environment variable
+    roboflow_api_key = os.environ.get("ROBOFLOW_API_KEY")
+    if not roboflow_api_key:
+        raise ValueError(
+            "ROBOFLOW_API_KEY environment variable not set. "
+            "Get your free API key from https://roboflow.com and set it as an environment variable."
+        )
+    
+    rf = Roboflow(api_key=roboflow_api_key)
     project = rf.workspace("objectdetection-qxiqx").project("detr_crack_dataset")
     version = project.version(1)
     dataset = version.download("yolov8")
