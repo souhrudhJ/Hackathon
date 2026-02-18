@@ -1,5 +1,7 @@
 # Security Remediation Summary
 
+⚠️ **NOTE**: This document contains the actual exposed API key. This is intentional and necessary for the cleanup process. The key should be revoked immediately as instructed below.
+
 ## Issue Description
 
 This Pull Request addresses a **critical security vulnerability** where sensitive credentials and personal information were committed to the repository's git history.

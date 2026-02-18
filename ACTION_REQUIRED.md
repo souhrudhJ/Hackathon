@@ -1,5 +1,7 @@
 # URGENT: Action Required on This Pull Request
 
+⚠️ **NOTE**: This document contains the actual exposed API key. This is intentional and necessary so you know exactly which key to revoke.
+
 ## 🚨 Critical Security Issue Detected
 
 This PR addresses a **critical security vulnerability** where sensitive credentials were exposed in the git history of this repository.

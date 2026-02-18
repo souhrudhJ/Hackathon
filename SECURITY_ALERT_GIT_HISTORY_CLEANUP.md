@@ -1,5 +1,7 @@
 # 🚨 CRITICAL SECURITY ALERT: Exposed Sensitive Data in Git History
 
+⚠️ **NOTE**: This document contains the actual exposed API key. This is intentional and necessary for the cleanup process. The key should be revoked immediately as instructed below.
+
 ## Overview
 **SEVERITY: CRITICAL**  
 **ACTION REQUIRED: IMMEDIATE**

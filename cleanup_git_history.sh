@@ -3,6 +3,7 @@
 # Quick Script to Remove Sensitive Data from Git History
 # Repository: souhrudhJ/Hackathon
 # 
+# ⚠️  NOTE: This script contains the exposed API key for cleanup purposes
 # ⚠️  WARNING: This script will rewrite git history!
 # ⚠️  All collaborators must re-clone after running this
 #

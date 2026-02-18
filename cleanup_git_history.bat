@@ -2,6 +2,7 @@
 REM Quick Script to Remove Sensitive Data from Git History (Windows Version)
 REM Repository: souhrudhJ/Hackathon
 REM 
+REM NOTE: This script contains the exposed API key for cleanup purposes
 REM WARNING: This script will rewrite git history!
 REM WARNING: All collaborators must re-clone after running this
 REM
