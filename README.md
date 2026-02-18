@@ -1,5 +1,15 @@
 # Property Inspection – Core Pipeline
 
+---
+## 🚨 SECURITY ALERT
+**Critical security issue detected in this repository's git history.**  
+**📄 START HERE: [ACTION_REQUIRED.md](ACTION_REQUIRED.md)**
+
+Exposed credentials must be revoked and git history must be cleaned.  
+See [SUMMARY.md](SUMMARY.md) for complete details and cleanup instructions.
+
+---
+
 Upload **video** or **image** → frame extraction (for video) → defect detection and marking.
 
 ## Quick start
